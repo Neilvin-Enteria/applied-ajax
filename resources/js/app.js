@@ -1,1 +1,2 @@
-require('./bootstrap');
+import './bootstrap';
+window.$ = window.jQuery = require('jquery');
